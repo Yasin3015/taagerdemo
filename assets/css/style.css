@@ -803,6 +803,56 @@ header .downNav ul li ul li {
         transition: all .5s;
     }
 }
+@media (width:480px) {
+    .chefs .layer .sliderr .slider-cards .slider-card {
+       
+        width: 220px !important;
+        box-shadow: none;
+        float: right;
+        margin-left: 10px;
+        margin-right: 0px;
+        transition: all .5s;
+
+    }
+
+    .chefs .layer .sliderr .slider-cards .slider-card .twitter {
+        margin-right: 0px !important;
+    }
+
+    .chefs .layer .sliderr .slider-cards .slider-card .face {
+        font-size: 15px;
+    }
+
+    .goleft {
+        margin-right: -400px !important;
+        transition: all .5s;
+    }
+}
+@media (max-width:350px) {
+    .chefs .layer .sliderr .slider-cards .slider-card {
+       
+        width: 250px !important;
+        box-shadow: none;
+        float: right;
+        margin-left: 80px;
+        margin-right: 15px;
+        transition: all .5s;
+
+    }
+
+    .chefs .layer .sliderr .slider-cards .slider-card .twitter {
+        margin-right: 20px !important;
+    }
+
+    .chefs .layer .sliderr .slider-cards .slider-card .face {
+        font-size: 18px;
+    }
+
+    .goleft {
+        margin-right: -400px !important;
+        transition: all .5s;
+    }
+}
 
 /* ================ end chef's section==================== */
 /* ///////////////////////////////////////
