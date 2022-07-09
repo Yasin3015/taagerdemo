@@ -1039,6 +1039,20 @@ header .downNav ul li ul li {
     }
 
 }
+@media (max-width:1060px) {
+    .pice {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inputs a {
+        margin: 0;
+    }
+    .img_down img {
+        width: 60px;
+        margin-left:20px 5px;
+    
+    }
 
 /* ////////////////////end page3//////////////////// */
 
