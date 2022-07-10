@@ -1055,6 +1055,82 @@ header .downNav ul li ul li {
     }
 
 /* ////////////////////end page3//////////////////// */
+    /* ///////////////////////////////////// foooter */
+.footer {
+    background: #0B1725;
+    padding: 100px 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.footer .left {
+    flex-basis: 50%;
+}
+
+.imgs {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.imgs img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.footer .left {
+    text-align: right;
+}
+
+.footer .left p {
+    width: 100%;
+    margin-left: auto;
+    line-height: 1.6;
+    padding-top: 60px;
+    color: rgb(211, 211, 211);
+}
+.footer .left a{
+    color: #8b8b8d;
+}
+
+.right a {
+    color: #29B6AB !important;
+}
+
+.footer h3 {
+    color: rgb(211, 211, 211) !important;
+    background-color: #0B1725;
+}
+
+@media screen and (max-width: 1100px) {
+    .footer .container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .footer .container .left {
+        text-align: center;
+    }
+
+    .footer .container .left img {
+        margin: 30px 0;
+    }
+
+    .footer .left p {
+        padding-top: 10px;
+    }
+
+
+
+}
+/* //////////////////////end footer///////////////////// */
 
 /* ////////////////start talabat page//////////// */
 section{
@@ -1360,79 +1436,4 @@ flex-basis: 50%;
     
 }
 /* //////////////////////////////////end wallet page////////////////// */
-/* ///////////////////////////////////// foooter */
-.footer {
-    background: #0B1725;
-    padding: 100px 0;
-}
 
-.footer .container {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-}
-
-.footer .left {
-    flex-basis: 50%;
-}
-
-.imgs {
-    padding: 50px 0;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-
-}
-
-.imgs img {
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-}
-
-.footer .left {
-    text-align: right;
-}
-
-.footer .left p {
-    width: 100%;
-    margin-left: auto;
-    line-height: 1.6;
-    padding-top: 60px;
-    color: rgb(211, 211, 211);
-}
-.footer .left a{
-    color: #8b8b8d;
-}
-
-.right a {
-    color: #29B6AB !important;
-}
-
-.footer h3 {
-    color: rgb(211, 211, 211) !important;
-    background-color: #0B1725;
-}
-
-@media screen and (max-width: 1100px) {
-    .footer .container {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-
-    .footer .container .left {
-        text-align: center;
-    }
-
-    .footer .container .left img {
-        margin: 30px 0;
-    }
-
-    .footer .left p {
-        padding-top: 10px;
-    }
-
-
-
-}
-/* //////////////////////end footer///////////////////// */
